@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <H1 style="font-size: 75px; font-weight: 1000; color: rgb(62, 160, 160);">Simple Calculator</H1> 
+   <p id="add"></p>
+   <p id="sub"></p>
+   <p id="mul"></p>
+   <p id="div"></p>
+   <input type="number">
+
+   <script>
+    var num1 = 100 
+    var num2 = 1000 
+
+
+    var add = num1 + num2;
+    var sub = num1 - num2;
+    var mul = num1 * num2;
+    var div = num1 / num2;
+
+    document.getElementById("add") .innerHTML = "The added value is :" +  add
+    document.getElementById("sub") .innerHTML = "The added value is :" +  sub
+    document.getElementById("mul") .innerHTML = "The added value is :" +  mul
+    document.getElementById("div") .innerHTML = "The added value is :" +  div
+   </script>
+</body>
+</html>
