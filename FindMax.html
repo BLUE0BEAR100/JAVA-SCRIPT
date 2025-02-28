@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Finding Largest Vaule</p>
+    <p id="result"></p>
+    <script>
+        function findmax () {
+            var i ;
+            var max = arguments[0] ;
+            for (i=0; i < arguments.length; i++){
+                if (arguments[i] > max ) {
+                    max=arguments[i]
+                }
+            }
+            return max
+        }
+        document.getElementById("result").innerHTML = findmax(
+    9, 3, 29, 10, 45, 87, 21, 56, 32, 11, 90, 43, 67, 78, 12, 34, 89, 23, 50, 71,
+    62, 28, 99, 81, 36, 74, 59, 88, 100, 47, 30, 5, 97, 15, 66, 53, 39, 22, 7, 80,
+    6, 41, 16, 98, 24, 44, 72, 55, 33, 68, 1, 14, 46, 79, 60, 95, 20, 48, 31, 57,
+    18, 63, 70, 26, 85, 19, 83, 27, 96, 77, 35, 64, 82, 37, 86, 52, 92, 40, 8, 49,
+    17, 58, 75, 54, 2, 65, 93, 13, 4, 94, 42, 76, 91, 25, 84, 61, 38, 51, 73, 56,
+    69, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110
+ );
+
+    </script>
+</body>
+</html>
