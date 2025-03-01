@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Arrays</h2>
+    <p id="join"></p>
+    <p id="firstpop"></p>
+    <p id="Secondpop"></p>
+    <script>
+        var fruits = [
+            "Mango",
+            "Banana",
+            "Orange",
+            "Apple"
+        ];
+        document.getElementById("join").innerHTML = fruits.join (" * ")
+        document.getElementById("firstpop").innerHTML = fruits; fruits.pop();
+        document.getElementById("Secondpop").innerHTML = fruits; 
+        
+    </script>
+</body>
+</html>
