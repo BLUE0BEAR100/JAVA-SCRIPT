@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="car1"></p>
+    <p id="car2"></p>
+    
+    <script>
+        class car{
+            constructor(model_year,color,name){
+                this.model_year=model_year;
+                this.color=color;
+                this.name=name;
+            }
+            model_age(){
+            let date =new Date();
+            return date.getFullYear()-this.model_year;
+            }
+        }
+        car1 = new car(2024,"Mad_Black", "Nissan gtx");
+        document.getElementById("car1").innerHTML = " This is "+car1.name+" Model Name is " + car1.model_year + " I'm "+ car1.model_age() + "Year old And It is " +car1.color;
+        car2 = new car(1925,"Dark_Red", "CyberXBlood");
+        document.getElementById("car2").innerHTML = " This is "+car2.name+" Model is Made On " + car2.model_year + " I'm A Vintage [Old Is Gold Car] "+ car2.model_age() + "Year old And It is " +car2.color;
+    </script>
+</body>
+</html>
