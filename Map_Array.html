@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Map Array</h1>
+   <button onclick="newarray()">Multiplying 10 with given number</button> 
+   <p id="product_value"></p>
+    
+    <script>
+        var numbers = [28,87,98,34,23,54];
+        function myfunction(num) {
+            return num * 10;
+        }
+        function newarray(){
+        var x= numbers.map(myfunction);
+        document.getElementById("product_value").innerHTML=x;
+        }
+    </script>
+</body>
+</html>
