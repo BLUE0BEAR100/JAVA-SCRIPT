@@ -1,0 +1,26 @@
+#MyClockDisplay{
+    color: rgb(255, 60, 0);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(45, 48, 61);
+    border: 5px solid hsl(9, 100%, 50%);
+    border-radius: 15px;
+    width:fit-content ;
+    margin-left: 235px;
+    box-shadow: 0 0 30px rgb(255, 17, 0);
+}
+body{
+   background-color: azure;
+}
+#random{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(45, 48, 61);
+    border: 5px solid hsl(9, 100%, 50%);
+    border-radius: 15px;
+    width:100px ;
+    margin-left: 380px;
+
+}
